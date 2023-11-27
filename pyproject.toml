@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "packtemplater"
+version = "0.1.0"
+description = ""
+authors = ["Antoine Barré <antoine.barre@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
